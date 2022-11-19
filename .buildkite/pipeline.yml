@@ -1,7 +1,7 @@
 steps:
   - label: "🤡 :hammer:"
     plugins:
-      - docker-compose#v3.9.0:
+      - docker-compose#v4.7.0:
           run: tests
   - label: ":sparkles: lint"
     plugins:
@@ -9,5 +9,5 @@ steps:
           id: detect-clowns
   - label: ":shell: Shellcheck"
     plugins:
-      - shellcheck#v1.2.0:
+      - shellcheck#v1.3.0:
           files: hooks/**
