@@ -19,6 +19,6 @@ To run the tests of this plugin, run
 docker-compose run --rm tests
 ```
 
-## License
+## License 
 
 MIT (see [LICENSE](LICENSE))
